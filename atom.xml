@@ -6,7 +6,7 @@
   <link href="https://wrwwww.github.io/atom.xml" rel="self"/>
   
   <link href="https://wrwwww.github.io/"/>
-  <updated>2023-05-06T00:43:41.625Z</updated>
+  <updated>2023-05-06T00:59:23.371Z</updated>
   <id>https://wrwwww.github.io/</id>
   
   <author>
@@ -20,8 +20,8 @@
     <title>Hello World</title>
     <link href="https://wrwwww.github.io/2023/05/06/hello-world/"/>
     <id>https://wrwwww.github.io/2023/05/06/hello-world/</id>
-    <published>2023-05-06T00:43:41.625Z</published>
-    <updated>2023-05-06T00:43:41.625Z</updated>
+    <published>2023-05-06T00:59:23.371Z</published>
+    <updated>2023-05-06T00:59:23.371Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
     
@@ -61,7 +61,7 @@
     <link href="https://wrwwww.github.io/2023/05/05/github%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/"/>
     <id>https://wrwwww.github.io/2023/05/05/github%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/</id>
     <published>2023-05-05T06:05:54.000Z</published>
-    <updated>2023-05-06T00:43:41.625Z</updated>
+    <updated>2023-05-06T00:59:23.371Z</updated>
     
     <content type="html"><![CDATA[<h2 id="常用的命令"><a href="#常用的命令" class="headerlink" title="常用的命令"></a>常用的命令</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">Git init  # 初始化仓库</span><br><span class="line">Git add . # 将所有文件添加到仓库</span><br><span class="line">Git commit -m # &#x27;提交信息&#x27; 将文件提交到仓库</span><br><span class="line">git config --global user. email &#x27; 2435960154@qq.com &#x27; # 初始化邮箱</span><br><span class="line">git config --global user. name &#x27;wrw&#x27; # 初始化用户名</span><br><span class="line">git branch # 查看分支</span><br><span class="line">git push origin master # 推送到远程服务器</span><br><span class="line">git remote add origin https://github.com/wrwwww/wrwwww.github.io</span><br><span class="line">git branch -M main</span><br><span class="line">git push -u origin main</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">git init</span><br><span class="line">git add README.md</span><br><span class="line">git branch -M main</span><br><span class="line">git remote add origin https://github.com/wrwwww/wrwwww.github.io</span><br><span class="line">git push -u origin main</span><br><span class="line"></span><br><span class="line">先输入git remote rm origin 删除关联的origin的远程库</span><br><span class="line">2、关联自己的仓库 git remote add origin https://gitee.com/xxxxxx.git</span><br><span class="line">3、最后git push origin master，这样就推送到自己的仓库了。</span><br></pre></td></tr></table></figure>]]></content>
     
