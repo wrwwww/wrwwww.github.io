@@ -6,7 +6,7 @@
   <link href="https://wrwwww.github.io/atom.xml" rel="self"/>
   
   <link href="https://wrwwww.github.io/"/>
-  <updated>2023-05-06T00:59:23.371Z</updated>
+  <updated>2023-05-07T03:24:20.228Z</updated>
   <id>https://wrwwww.github.io/</id>
   
   <author>
@@ -17,38 +17,18 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://wrwwww.github.io/2023/05/06/hello-world/"/>
-    <id>https://wrwwww.github.io/2023/05/06/hello-world/</id>
-    <published>2023-05-06T00:59:23.371Z</published>
-    <updated>2023-05-06T00:59:23.371Z</updated>
+    <title></title>
+    <link href="https://wrwwww.github.io/2023/05/07/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
+    <id>https://wrwwww.github.io/2023/05/07/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%B5%8C%E5%85%A5%E5%BC%8F/</id>
+    <published>2023-05-07T03:24:20.228Z</published>
+    <updated>2023-05-07T03:24:20.228Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>win脚本执行错误处理</title>
-    <link href="https://wrwwww.github.io/2023/05/05/win%E8%84%9A%E6%9C%AC%E6%89%A7%E8%A1%8C%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86/"/>
-    <id>https://wrwwww.github.io/2023/05/05/win%E8%84%9A%E6%9C%AC%E6%89%A7%E8%A1%8C%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86/</id>
-    <published>2023-05-05T13:30:42.000Z</published>
-    <updated>2023-05-05T13:33:42.395Z</updated>
-    
-    <content type="html"><![CDATA[<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">PS D:\code\wrwwww.github.io&gt; npm install -g pnpm</span><br><span class="line"></span><br><span class="line">added 1 package in 11s</span><br><span class="line"></span><br><span class="line">1 package is looking for funding</span><br><span class="line">  run `npm fund` for details</span><br><span class="line">PS D:\code\wrwwww.github.io&gt; pnpm -v</span><br><span class="line">pnpm : 无法加载文件 C:\Users\admin\AppData\Roaming\npm\pnpm.ps1，因为在此系统上禁止运行脚本。有关详细信息，请参阅 http</span><br><span class="line">s:/go.microsoft.com/fwlink/?LinkID=135170 中的 about_Execution_Policies。</span><br><span class="line">所在位置 行:1 字符: 1</span><br><span class="line">+ pnpm -v</span><br><span class="line">+ ~~~~</span><br><span class="line">    + CategoryInfo          : SecurityError: (:) []，PSSecurityException</span><br><span class="line">    + FullyQualifiedErrorId : UnauthorizedAccess</span><br><span class="line">PS D:\code\wrwwww.github.io&gt; pnpm</span><br><span class="line">pnpm : 无法加载文件 C:\Users\admin\AppData\Roaming\npm\pnpm.ps1，因为在此系统上禁止运行脚本。有关详细信息，请参阅 http</span><br><span class="line">s:/go.microsoft.com/fwlink/?LinkID=135170 中的 about_Execution_Policies。</span><br><span class="line">所在位置 行:1 字符: 1</span><br><span class="line">+ pnpm</span><br><span class="line">+ ~~~~</span><br><span class="line">    + CategoryInfo          : SecurityError: (:) []，PSSecurityException</span><br><span class="line">    + FullyQualifiedErrorId : UnauthorizedAccess</span><br></pre></td></tr></table></figure><blockquote><p>原因是： 首次在计算机上启动 Windows PowerShell 时，现用执行策略很可能是 Restricted（默认设置）。Restricted 策略不允许任何脚本运行。<br>解决办法:powershell使用管理员执行</p></blockquote><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">set-ExecutionPolicy RemoteSigned</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h2 id="程序的产生"><a href="#程序的产生" class="headerlink" title="程序的产生"></a>程序的产生</h2><p>以c语言为例<br>c的源代码通过编译器转为汇编代码,汇编代码也是文本文件,只不过汇编代码更接近指令集的代码,依赖于特定的指令集,于其他指令集不兼容.</p><p>机器语言是CPU可以直接执行的低层代码。汇编器可以将汇编语言转换为机器语言。</p><p>汇编器产生的是包含机器语言的二进制文件，这个文件也包含符号表（全局变量，函数例程）等其他信息。这类文件有几种常见的格式，如在Linux系统下的ELF文件，Windows下的PE文件。前面的例子中生成的是ELF文件。</p><p>即便汇编器产生的文件包含机器语言指令，通常它还缺少一些东西，要想执行它还需要重定向（后边详细介绍）以及链接其他文件。例如这个文件还需要链接C标准库，才能调用里面的<code>printf</code>方法。因此，汇编器产生的文件并不是可执行文件。</p><p>链接器就是最后一步，这个工具可以将汇编器产生的文件链接最后生成可执行文件。汇编器生成的*.o文件，或者叫目标文件，与链接器生成的可执行文件结构上很相似，它们都是包含机器语言的二进制文件。</p><p>目标文件和可执行文件都是二进制文件，很难直接查看其内容。为了检查这些文件内容，开发者通常借用工具来反编译，来生成可读的文本信息。有几种可以检查这些文件内容的工具，如objdump、nm和readelf。</p><h2 id="认识汇编文件"><a href="#认识汇编文件" class="headerlink" title="认识汇编文件"></a>认识汇编文件</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">    .section .text.entry</span><br><span class="line">    .globl _start</span><br><span class="line">_start:</span><br><span class="line">    la sp, bootstacktop</span><br><span class="line">    call rust_main</span><br><span class="line">    .section .bss.stack</span><br><span class="line">    .align 12</span><br><span class="line">    .global bootstack</span><br><span class="line">bootstack:</span><br><span class="line">    .space 4096 * 4</span><br><span class="line">    .global bootstacktop</span><br><span class="line">bootstacktop:</span><br></pre></td></tr></table></figure><p>标签是标识程序位置的记号。通常定义一个名称然后加上”:”后缀。这些程序位置可以被其他汇编指或指示符令引用。如_start,bootstack<br>bootstack: 代表函数bootstack的入口<br>变量和函数历程存储在计算机主存,可以通过标签去定位这些变量和函数历程<br>这些变量和函数例程的最终地址是在链接多个目标文件生成可执行文件之后才定下来的</p><p>符号分为本地和全局两种。本地符号只能在本文件中可见，链接器在解决未定义引用时用不到它们，而是用全局符号来解决未定义符号。</p><p>默认情况，汇编器将标签注册为本地符号。汇编中使用.globl指令告诉编译器这里注册了一个全局符号的标签。如下面的例子中，告诉编译器在符号表中注册一个全局符号标签exit。可以链接到其他程序</p><h2 id="程序内存布局"><a href="#程序内存布局" class="headerlink" title="程序内存布局"></a>程序内存布局</h2><ul><li>.text：用来保存程序指令。</li><li>.data：用来存储已经初始化的全局变量，这些变量的值在程序启动之前就已经确定。</li><li>.bss：存储未初始化的全局变量。</li><li>.rodata：保存常量值，只读不能被修改。</li><li>….<br>当链接多个目标文件时，链接器将不同文件的相同段合并到一起后放到可执行文件内<br>可以使用 .section 段名称<br>将信息加载到不同的段当中<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">.section .data</span><br><span class="line">xxx</span><br><span class="line">xxx</span><br><span class="line">xx</span><br><span class="line">.section .text</span><br><span class="line">sss</span><br><span class="line">sss</span><br><span class="line">sss</span><br><span class="line">.section .data</span><br><span class="line">sss</span><br><span class="line">sss</span><br><span class="line">sss</span><br></pre></td></tr></table></figure></li></ul><h2 id="3-4-可执行文件和目标文件"><a href="#3-4-可执行文件和目标文件" class="headerlink" title="3.4 可执行文件和目标文件"></a>3.4 可执行文件和目标文件</h2><p>Linux系统下可执行文件和目标文件的编码格式叫做ELF。即使这两种文件都包含机器代码且格式相同，但它们之间还有以下区别：</p><ul><li>目标文件中的地址不是最终地址，各个段的地址相同。因此各个段不能同时在内存中驻留。</li><li>目标文件通常包含一些未定义符号，需要在链接过程确定。</li><li>目标文件没有入口点。</li></ul><h2 id="rust-objdump"><a href="#rust-objdump" class="headerlink" title="rust-objdump"></a>rust-objdump</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">查看具体信息 -想 查看源信息 -d 反汇编 -h 内存布局</span></span><br><span class="line">rust-objdump target/riscv64imac-unknown-none-elf/debug/os -x --arch-name=riscv64</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>start address 是程序的入口地址。<br>Sections，从这里我们可以看到程序各段的各种信息。后面以 debug 开头的段是调试信息。<br>SYMBOL TABLE 即符号表，从中我们可以看到程序中所有符号的地址。例如 start 就位于入口地址上。<br>Program Header_ 是程序加载时所需的段信息。</p><p>其中 off 是它在文件中的位置，vaddr 和 paddr 是要加载到的虚拟地址和物理地址，align 规定了地址的对齐，filesz 和 memsz 分别表示它在文件和内存中的大小，flags 描述了相关权限（r：可读，w：可写，x：可执行）</p><p>由于我们目前没有调试的手段，不需要调试信息；同时也不会解析 <em>elf</em> 格式文件，所以使用工具 <code>rust-objcopy</code> 从 <code>elf</code> 格式可执行文件生成内核镜像：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rust-objcopy target/riscv64imac-unknown-none-elf/debug/os --strip-all -O binary target/riscv64imac-unknown-none-elf/debug/kernel.bin</span><br></pre></td></tr></table></figure><p><code>--strip-all</code> 表明丢弃所有符号表及调试信息，<code>-O binary</code> 表示输出为二进制文件。</p><h2 id="risc汇编"><a href="#risc汇编" class="headerlink" title="risc汇编"></a>risc汇编</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">li a1 9; 立即数到a1的寄存器</span><br><span class="line">alli a1 a3 2; 左移2位a3 放到 a1 低位补零</span><br><span class="line">arli a1 a3 2; 右移2位a3 放到 a1 高位补零</span><br></pre></td></tr></table></figure><h2 id="系统调用ecall"><a href="#系统调用ecall" class="headerlink" title="系统调用ecall"></a>系统调用ecall</h2><p>ecall 系统调用输出一个字符<br>需要三个参数<br>文件描述符 例如1位 stdout<br>要打印信息的缓存地址<br>需要打印的字节数量</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
     
     
       
       
-    <summary type="html">&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class</summary>
+    <summary type="html">&lt;h2 id=&quot;程序的产生&quot;&gt;&lt;a href=&quot;#程序的产生&quot; class=&quot;headerlink&quot; title=&quot;程序的产生&quot;&gt;&lt;/a&gt;程序的产生&lt;/h2&gt;&lt;p&gt;以c语言为例&lt;br&gt;c的源代码通过编译器转为汇编代码,汇编代码也是文本文件,只不过汇编代码更接近指令集的代码,依赖于</summary>
       
     
     
@@ -57,24 +37,413 @@
   </entry>
   
   <entry>
-    <title>github的基本使用</title>
-    <link href="https://wrwwww.github.io/2023/05/05/github%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/"/>
-    <id>https://wrwwww.github.io/2023/05/05/github%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/</id>
-    <published>2023-05-05T06:05:54.000Z</published>
-    <updated>2023-05-06T00:59:23.371Z</updated>
+    <title></title>
+    <link href="https://wrwwww.github.io/2023/05/07/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E6%B1%87%E7%BC%96/"/>
+    <id>https://wrwwww.github.io/2023/05/07/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E6%B1%87%E7%BC%96/</id>
+    <published>2023-05-07T03:24:20.228Z</published>
+    <updated>2023-05-07T03:24:20.228Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="常用的命令"><a href="#常用的命令" class="headerlink" title="常用的命令"></a>常用的命令</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">Git init  # 初始化仓库</span><br><span class="line">Git add . # 将所有文件添加到仓库</span><br><span class="line">Git commit -m # &#x27;提交信息&#x27; 将文件提交到仓库</span><br><span class="line">git config --global user. email &#x27; 2435960154@qq.com &#x27; # 初始化邮箱</span><br><span class="line">git config --global user. name &#x27;wrw&#x27; # 初始化用户名</span><br><span class="line">git branch # 查看分支</span><br><span class="line">git push origin master # 推送到远程服务器</span><br><span class="line">git remote add origin https://github.com/wrwwww/wrwwww.github.io</span><br><span class="line">git branch -M main</span><br><span class="line">git push -u origin main</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">git init</span><br><span class="line">git add README.md</span><br><span class="line">git branch -M main</span><br><span class="line">git remote add origin https://github.com/wrwwww/wrwwww.github.io</span><br><span class="line">git push -u origin main</span><br><span class="line"></span><br><span class="line">先输入git remote rm origin 删除关联的origin的远程库</span><br><span class="line">2、关联自己的仓库 git remote add origin https://gitee.com/xxxxxx.git</span><br><span class="line">3、最后git push origin master，这样就推送到自己的仓库了。</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<p>gcc -S x.c -o x.s</p><h2 id="x86-64j寄存器"><a href="#x86-64j寄存器" class="headerlink" title="x86_64j寄存器"></a>x86_64j寄存器</h2><ol><li>%rax 通常存储函数调用的返回结果，也被用在idiv （除法）和imul（乘法）命令中</li><li>%rsp 堆栈指针寄存器，指向栈顶位置。pop操作通过增大rsp的值实现出栈，push操作通过减小rsp的值实现入栈(栈从高地址向低地址扩展)</li><li>%rbp ：栈帧指针(栈底寄存器)，标识当前栈帧的起始位置</li><li>%rdi, %rsi, %rdx, %rcx,%r8, %r9 ：六个寄存器,当args的数量&lt;7依次从左放入,args数量&gt;&#x3D;7后超过的部分从后往前放入栈中</li><li>leave 其作用为恢复堆栈指针,相当于<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">movl  %ebp, %rsp</span><br><span class="line">pop1  %ebp</span><br></pre></td></tr></table></figure></li><li>每次call一个函数，将调用函数下一条指令入栈，被调函数返回后将取这条指令继续执行,修改指令指针寄存器eip的值，使其指向被调函数的执行位置,把当前的栈底指针压入堆栈，然后把栈底指针移动到当前栈顶，这样就相当于在旧栈上新开辟一个栈，等被调用的函数执行的时候，CPU依次执行栈中的指令，然后再依次出栈，也就是说，当函数执行完毕，再恢复堆栈指针之后，栈顶指针又回到了函数调用的位置</li><li>混合显示c语言与汇编<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">gcc -o hello -g hello.c //要加上-g 选项</span><br><span class="line">objdump -S hello</span><br></pre></td></tr></table></figure></li><li>反汇编</li></ol>]]></content>
     
     
       
       
-    <summary type="html">&lt;h2 id=&quot;常用的命令&quot;&gt;&lt;a href=&quot;#常用的命令&quot; class=&quot;headerlink&quot; title=&quot;常用的命令&quot;&gt;&lt;/a&gt;常用的命令&lt;/h2&gt;&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;</summary>
+    <summary type="html">&lt;p&gt;gcc -S x.c -o x.s&lt;/p&gt;
+&lt;h2 id=&quot;x86-64j寄存器&quot;&gt;&lt;a href=&quot;#x86-64j寄存器&quot; class=&quot;headerlink&quot; title=&quot;x86_64j寄存器&quot;&gt;&lt;/a&gt;x86_64j寄存器&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;%rax 通常</summary>
       
     
     
     
     
-    <category term="git" scheme="https://wrwwww.github.io/tags/git/"/>
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://wrwwww.github.io/2023/05/07/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E8%8B%B1%E8%AF%AD/"/>
+    <id>https://wrwwww.github.io/2023/05/07/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E8%8B%B1%E8%AF%AD/</id>
+    <published>2023-05-07T03:24:20.228Z</published>
+    <updated>2023-05-07T03:24:20.228Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="2022-12-28"><a href="#2022-12-28" class="headerlink" title="2022-12-28"></a>2022-12-28</h2><h3 id="单词"><a href="#单词" class="headerlink" title="单词"></a>单词</h3><ol><li>abuse n.滥用</li><li>disastrous adj.灾难性的</li><li>sufficient adj.充足的,足够的</li><li>admission n. 允许进入,进入</li><li>vehicle 交通工具</li><li>crucial agj.关键性的</li><li>decorate vt.装修</li><li>knit vtvi. 编织</li><li>favor n.帮助</li><li>interpret n. 解释,说明</li><li>correct adj.合适的</li><li>recognition 认出,识别</li><li>calorie 卡路里</li><li>acknowledge vt.承认</li><li>charity 慈善机构</li><li>careful adj.小心的,细心的</li><li>consideration  n.仔细考虑</li><li>moral  道德的</li><li>territory n.领土</li><li>preparation n.准备</li><li>leisure n.闲暇,空闲</li><li>enhavce v.提高</li><li>entire  adj.全部的,整个的</li><li>seminar n.研讨班</li><li>hardship n.艰苦</li><li>detail n.细节</li><li>numerous adj.众多的</li><li>accuse v.指责</li><li>funding n.资金,拨款</li><li>reveal vt.揭露</li><li>aged .. 岁的</li><li>owner 物主,所有者</li><li>exploration n.勘探</li><li>bachelor 单身汉</li><li>possession 拥有,具有</li></ol><h3 id="句子"><a href="#句子" class="headerlink" title="句子"></a>句子</h3><ol><li>you would making a disastrous mistake.你这样将酿成大错的</li><li>His needs were very  simple  and his salary was sufficient.他的需求是非常简单的,他的薪水是足够的.</li><li>so you,ve  been driving this vehicle all night .所以你驾驶了一晚上车?</li><li>Bees play a crucial role on Earth. 蜜蜂在地球上扮演着一个至关重要的角色.</li><li>knitting a sweater takes a long time .编织一件毛衣需要花费挺长时间的.</li><li>excuse me,can you do me a favor ?打扰一下你能帮助我一个忙吗?</li><li>what is the correct way to interpret the image?怎么合适的去解释这幅画?</li><li>facial recognition required. 请进行人脸识别</li><li>acknowledge defeat will not be easy .承认失败并不容易</li><li>after careful consideration ,we will join you .经过仔细的考虑,我们决定加入你.</li><li>(some of them) considered slavery a moral issue.一些人认为奴隶制是道德问题.</li><li>that realm covered many territory and many nation alities.哪个国家包括许多的领土和民族.</li><li>my father believed that success is a mixture  of preparation and luck.我的父亲相信成功是准备和幸运的混合.</li><li>shouldnot you be enjoying your leisure time ,then?你不应该在享受闲暇时光么.</li><li>sleeping at night enhances our creativity.晚上睡觉提高我们的创造力.</li><li>you tell me every single detail of your life.告诉我关于你生活的每个细节.</li><li>there are the most numerous  birds on earth.这些鸟事地球上数量最多的鸟类.</li><li>they are being  accused of murder.他们被指责谋杀</li><li>she revealed a secret.他揭露了一个秘密</li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;2022-12-28&quot;&gt;&lt;a href=&quot;#2022-12-28&quot; class=&quot;headerlink&quot; title=&quot;2022-12-28&quot;&gt;&lt;/a&gt;2022-12-28&lt;/h2&gt;&lt;h3 id=&quot;单词&quot;&gt;&lt;a href=&quot;#单词&quot; class=&quot;headerli</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://wrwwww.github.io/2023/05/07/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    <id>https://wrwwww.github.io/2023/05/07/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</id>
+    <published>2023-05-07T03:24:20.228Z</published>
+    <updated>2023-05-07T03:24:20.228Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="OSI模型"><a href="#OSI模型" class="headerlink" title="OSI模型"></a>OSI模型</h1><p>应用层<br>表示层<br>会话层<br>传输层<br>网络层<br>数据链路层<br>物理层<br>![[Pasted image 20221229095145.png]]<br>应用层<br>和用户交互产生网络流量的程序.<br>协议有 FTp ,http,<br>表示层<br>处理了两个通信系统中交换信息的表示方式.<br>数据格式变换,数据的加密解密,数据的压缩解压缩<br>会话层<br>像用户层实体用户进程建立连接并在连接上有序的传输数据<br>建立管理终止会话,使会话在失效的时候从校验点&#x2F;同步点继续通信<br>传输层<br>负责主机两个进程的通信,传输单位报文段,用户数据报<br>可靠传输,不可靠传输<br>差错控制<br>流量控制 传输速度匹配,能否正常接收<br>复用分用<br>tcp , udp<br>网路层<br>分组<br>数据报分成更小的组<br>路由选择(最佳路径),流量控制,差错控制,拥塞控制<br>数据链路层<br>把网络层的数据组层针,差错控制 可以检错纠错<br>流量控制接收方缓存不够,让发送方慢点发<br>访问控制 控制对信道的访问,在广播同一时间只能有一个发送,其他处于监听<br>物理层</p><h1 id="ISO模型"><a href="#ISO模型" class="headerlink" title="ISO模型"></a>ISO模型</h1><p>应用层<br>传输层<br>网际层<br>网络接口层<br>![[Pasted image 20221229104753.png]]<br>5层参考模型<br>![[Pasted image 20221229110523.png]]</p><h3 id="物理层"><a href="#物理层" class="headerlink" title="物理层"></a>物理层</h3><h4 id="通信基础"><a href="#通信基础" class="headerlink" title="通信基础"></a>通信基础</h4><h4 id="传输介质-amp-设备"><a href="#传输介质-amp-设备" class="headerlink" title="传输介质&amp;设备"></a>传输介质&amp;设备</h4>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;OSI模型&quot;&gt;&lt;a href=&quot;#OSI模型&quot; class=&quot;headerlink&quot; title=&quot;OSI模型&quot;&gt;&lt;/a&gt;OSI模型&lt;/h1&gt;&lt;p&gt;应用层&lt;br&gt;表示层&lt;br&gt;会话层&lt;br&gt;传输层&lt;br&gt;网络层&lt;br&gt;数据链路层&lt;br&gt;物理层&lt;br&gt;![[Past</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://wrwwww.github.io/2023/05/07/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0/"/>
+    <id>https://wrwwww.github.io/2023/05/07/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0/</id>
+    <published>2023-05-07T03:24:20.228Z</published>
+    <updated>2023-05-07T03:24:20.228Z</updated>
+    
+    <content type="html"><![CDATA[<p>engligh<br>不及物动词需要加介词<br>句子没有主语时候</p><ol><li>there be 句型在句子中有”有”and 没有主语的时候</li><li>没有主语可以考虑用 it</li><li>变主动为被动(虽然人称代词可以做主语, 但要注意的是加了之后句子变的具有主观性)<br>{<br> 被动时态<br> 一般现在时 am&#x2F;is&#x2F;are + 动词的过去分词(done)<br> 一般过去时 was&#x2F;were + 动词的过去分词<br> 一般将来时 will + be + done<br> 现在进行时 am&#x2F;is&#x2F;are +being + done<br> 过去进行时 was&#x2F;were + being + done<br> 现在完成时 have&#x2F;has + been + done<br> 过去完成时 had + been + done<br> 情态动词    情态动词+be + done<br> by 被谁<br> for给谁, 为了谁<br>}<br>单词短语<br>孝敬父母  respect parents<br>执行  carried out<br>弱势群体 vulnerable groups</li></ol><p>定语<br>在句子中的位置,一个定语在前面,多个在后面<br>定语为过去式在后面</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;engligh&lt;br&gt;不及物动词需要加介词&lt;br&gt;句子没有主语时候&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;there be 句型在句子中有”有”and 没有主语的时候&lt;/li&gt;
+&lt;li&gt;没有主语可以考虑用 it&lt;/li&gt;
+&lt;li&gt;变主动为被动(虽然人称代词可以做主语, 但要注意的是加了</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://wrwwww.github.io/2023/05/07/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1%E4%B8%8E%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/"/>
+    <id>https://wrwwww.github.io/2023/05/07/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1%E4%B8%8E%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/</id>
+    <published>2023-05-07T03:24:20.228Z</published>
+    <updated>2023-05-07T03:24:20.228Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li>软件的分类软件被划分为编程软件系统软件应用软件和中间件</li><li>软件&#x3D;程序+数据+文档</li><li>软件&#x3D;满足需求的信息+服务工具</li><li>软件工程：将系统化的、规范化的、可量化的方法应用于软件的开发，运行、维护，即将工程化方法应用于软件，包括对上述方法的研究。</li><li>一个通用的软件工程过程框架通常包含以下五个活动：沟通、策划、建模、构建、部署</li><li>软件模型是指软件的一种抽象，目前一般通过非数字模型来描述。统一的基本单元的抽象成为软件模型，而将软件系统的抽象称为软件体系结构。软件模型可以看作是一种元模型。</li><li>功能模型也可以称为过程模型或函数模型，是模型化软件构建方法的第一个基本模型。功能模型的基本原理是将一个系统分解为若干个基本功能模块，基本功能模块之间可以按需进行调用。基本功能模块集合及其调用关系集合构成一个系统的模型。功能模型的核心之一是基本功能模块的抽象及耦合。功能模型的核心之二是递归思想的具体实现。</li><li>对象模型强调了对程序中数据组织的抽象，并将数据处理和数据统一进行考虑。对象模型的基本原理是将一个系统分解为若干个对象，对象之间可以通过发送消息按需进行协作。对象集合及其协作关系集合构成一个系统的模型。对象模型的核心之一是对数据类型的抽象，核心之二是同构对象关系的定义，这种关系体现在继承和多态。</li><li>UML 是一种面向对象系统的产品进行说明，可视化编制文档的一种标准语言，是非专利的第三代建模和规约语言</li><li></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;ol&gt;
+&lt;li&gt;软件的分类软件被划分为编程软件系统软件应用软件和中间件&lt;/li&gt;
+&lt;li&gt;软件&amp;#x3D;程序+数据+文档&lt;/li&gt;
+&lt;li&gt;软件&amp;#x3D;满足需求的信息+服务工具&lt;/li&gt;
+&lt;li&gt;软件工程：将系统化的、规范化的、可量化的方法应用于软件的开发，运行、维护，即</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://wrwwww.github.io/2023/05/07/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%85%B6%E4%BB%96/ps/"/>
+    <id>https://wrwwww.github.io/2023/05/07/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%85%B6%E4%BB%96/ps/</id>
+    <published>2023-05-07T03:24:20.228Z</published>
+    <updated>2023-05-07T03:24:20.228Z</updated>
+    
+    <content type="html"><![CDATA[<p>ctrl+d 为取消选框</p><p>alt + 拖拽 复制图层</p><p>ctrl + j 复制图层</p><p>ctrl+{} 上下移动</p><p>+shift +{}置顶 底</p><p>盖印 ctrl shift alt e</p><p>ctrl t 自由变化</p><p>ctri sh i</p><p>魔板shift 是+alt是将</p><p>可以用套索剪选</p><p>crtl j 复制</p><p>魔板选择并遮住</p><h4 id="裁剪工具"><a href="#裁剪工具" class="headerlink" title="裁剪工具"></a>裁剪工具</h4><ol><li><p>可以在裁剪里面用拉直工具将图片拉直</p><h4 id="橡皮工具"><a href="#橡皮工具" class="headerlink" title="橡皮工具"></a>橡皮工具</h4><p>可以添加一个蒙版然后在蒙版上用橡皮擦,将橡皮硬度变低画一种效果</p><h5 id="换天空"><a href="#换天空" class="headerlink" title="换天空"></a>换天空</h5><p>用快速选择工具圈住空间,然后</p></li></ol><p>图片加圆角弧度</p><p>可以建立矩形选取然后删除</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;ctrl+d 为取消选框&lt;/p&gt;
+&lt;p&gt;alt + 拖拽 复制图层&lt;/p&gt;
+&lt;p&gt;ctrl + j 复制图层&lt;/p&gt;
+&lt;p&gt;ctrl+{} 上下移动&lt;/p&gt;
+&lt;p&gt;+shift +{}置顶 底&lt;/p&gt;
+&lt;p&gt;盖印 ctrl shift alt e&lt;/p&gt;
+&lt;p&gt;ctrl t</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://wrwwww.github.io/2023/05/07/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%85%B6%E4%BB%96/python/"/>
+    <id>https://wrwwww.github.io/2023/05/07/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%85%B6%E4%BB%96/python/</id>
+    <published>2023-05-07T03:24:20.228Z</published>
+    <updated>2023-05-07T03:24:20.228Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="1-python"><a href="#1-python" class="headerlink" title="1. python"></a>1. python</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">name=<span class="built_in">input</span>(<span class="string">&quot;提示:&quot;</span>)</span><br><span class="line">pip install pyinstaller//刷入py文件打包exe</span><br><span class="line">pyinstaller -F -Clean ps.py生成可执行文件</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;输出&quot;</span>)</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;1-python&quot;&gt;&lt;a href=&quot;#1-python&quot; class=&quot;headerlink&quot; title=&quot;1. python&quot;&gt;&lt;/a&gt;1. python&lt;/h1&gt;&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://wrwwww.github.io/2023/05/07/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%85%B6%E4%BB%96/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
+    <id>https://wrwwww.github.io/2023/05/07/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%85%B6%E4%BB%96/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/</id>
+    <published>2023-05-07T03:24:20.228Z</published>
+    <updated>2023-05-07T03:24:20.228Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="动态规划"><a href="#动态规划" class="headerlink" title="动态规划"></a>动态规划</h1><p>动态规格问题大多都能够穷举求最值,但穷举效率很低,所以需要动态规划,需要dp数组和备忘录优化穷举过程,找到重叠子问题减少不必要的计算.</p><h3 id="动态规划三要素-重叠子问题-转态转移方程-最优子结构"><a href="#动态规划三要素-重叠子问题-转态转移方程-最优子结构" class="headerlink" title="动态规划三要素:重叠子问题,转态转移方程,最优子结构"></a>动态规划三要素:重叠子问题,转态转移方程,最优子结构</h3><h2 id="1-矩阵相乘"><a href="#1-矩阵相乘" class="headerlink" title="1. 矩阵相乘"></a>1. 矩阵相乘</h2><h3 id="1-1-矩阵的乘法"><a href="#1-1-矩阵的乘法" class="headerlink" title="1.1 矩阵的乘法"></a>1.1 矩阵的乘法</h3><p>矩阵a(2&#x2F;*3) 和矩阵b(3&#x2F;<em>2)相乘变成2</em>2的矩阵</p><p>2116021032</p><h2 id="2-最长公共子序列"><a href="#2-最长公共子序列" class="headerlink" title="2. 最长公共子序列"></a>2. 最长公共子序列</h2><p>2.1 </p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;动态规划&quot;&gt;&lt;a href=&quot;#动态规划&quot; class=&quot;headerlink&quot; title=&quot;动态规划&quot;&gt;&lt;/a&gt;动态规划&lt;/h1&gt;&lt;p&gt;动态规格问题大多都能够穷举求最值,但穷举效率很低,所以需要动态规划,需要dp数组和备忘录优化穷举过程,找到重叠子问题减少不必</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://wrwwww.github.io/2023/05/07/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%85%B6%E4%BB%96/%E5%A5%87%E5%81%B6%E6%95%B0%E5%88%86%E5%BC%80/"/>
+    <id>https://wrwwww.github.io/2023/05/07/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%85%B6%E4%BB%96/%E5%A5%87%E5%81%B6%E6%95%B0%E5%88%86%E5%BC%80/</id>
+    <published>2023-05-07T03:24:20.228Z</published>
+    <updated>2023-05-07T03:24:20.228Z</updated>
+    
+    <content type="html"><![CDATA[<p>将数组中的数值按奇数偶数分开,奇数在后,偶数在前</p><p>考点:双指针</p><p>有两种写法</p><ol><li>一种是类似快排的左右指针交叉移动,左指针找到奇数,右指针找到偶数,俩指针交换位置,继续查找</li></ol><figure class="highlight rust"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">pub</span> <span class="keyword">fn</span> <span class="title function_">sort_array_by_parity</span>(<span class="keyword">mut</span> nums: <span class="type">Vec</span>&lt;<span class="type">i32</span>&gt;) <span class="punctuation">-&gt;</span> <span class="type">Vec</span>&lt;<span class="type">i32</span>&gt; &#123;</span><br><span class="line">    <span class="keyword">let</span> <span class="variable">is_fun</span>=|num:&amp;<span class="type">i32</span>|&#123;</span><br><span class="line">        <span class="keyword">return</span> num%<span class="number">2</span>==<span class="number">0</span>;</span><br><span class="line">    &#125;;</span><br><span class="line">    <span class="keyword">let</span> <span class="keyword">mut </span><span class="variable">left</span>=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">let</span> <span class="keyword">mut </span><span class="variable">right</span>=nums.<span class="title function_ invoke__">len</span>()-<span class="number">1</span>;</span><br><span class="line">    <span class="keyword">while</span> left&lt;right &#123;</span><br><span class="line">        <span class="keyword">while</span> <span class="title function_ invoke__">is_fun</span>(&amp;nums[left])&amp;&amp;left&lt;right &#123;</span><br><span class="line">            left+=<span class="number">1</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">while</span> !<span class="title function_ invoke__">is_fun</span>(&amp;nums[right])&amp;&amp;left&lt;right &#123;</span><br><span class="line">            right-=<span class="number">1</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> left&lt;right &#123;</span><br><span class="line">            <span class="keyword">let</span> <span class="variable">temp</span>=nums[right];</span><br><span class="line">            nums[right]=nums[left];</span><br><span class="line">            nums[left]=temp;</span><br><span class="line">            left+=<span class="number">1</span>;</span><br><span class="line">            right-=<span class="number">1</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    nums</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><ol start="2"><li>第二种是双指针从左往右边寻找,遇见奇数往尾指针交换,继续判断这个位置,尾指针往前移动</li></ol><figure class="highlight rust"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">pub</span> <span class="keyword">fn</span> <span class="title function_">sort_array_by_parity</span>(<span class="keyword">mut</span> nums: <span class="type">Vec</span>&lt;<span class="type">i32</span>&gt;) <span class="punctuation">-&gt;</span> <span class="type">Vec</span>&lt;<span class="type">i32</span>&gt; &#123;</span><br><span class="line">    <span class="keyword">let</span> <span class="keyword">mut </span><span class="variable">left</span>=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">let</span> <span class="keyword">mut </span><span class="variable">right</span>=nums.<span class="title function_ invoke__">len</span>()-<span class="number">1</span>;</span><br><span class="line">    <span class="keyword">let</span> <span class="keyword">mut </span><span class="variable">temp</span>=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">while</span> left&lt;right &#123;</span><br><span class="line">        <span class="comment">// 为奇数</span></span><br><span class="line">        <span class="keyword">if</span> nums[left]%<span class="number">2</span>==<span class="number">1</span> &#123;</span><br><span class="line">            <span class="comment">// 往后换</span></span><br><span class="line">            temp=nums[right];</span><br><span class="line">            nums[right]=nums[left];</span><br><span class="line">            nums[left]=temp;</span><br><span class="line">            right-=<span class="number">1</span>;</span><br><span class="line">        &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">            left+=<span class="number">1</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    nums</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;将数组中的数值按奇数偶数分开,奇数在后,偶数在前&lt;/p&gt;
+&lt;p&gt;考点:双指针&lt;/p&gt;
+&lt;p&gt;有两种写法&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;一种是类似快排的左右指针交叉移动,左指针找到奇数,右指针找到偶数,俩指针交换位置,继续查找&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&quot;</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://wrwwww.github.io/2023/05/07/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%85%B6%E4%BB%96/%E6%97%A0%E7%BA%BF%E7%AE%A1%E7%90%86%E5%91%98/"/>
+    <id>https://wrwwww.github.io/2023/05/07/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%85%B6%E4%BB%96/%E6%97%A0%E7%BA%BF%E7%AE%A1%E7%90%86%E5%91%98/</id>
+    <published>2023-05-07T03:24:20.228Z</published>
+    <updated>2023-05-07T03:24:20.228Z</updated>
+    
+    <content type="html"><![CDATA[<p>811登录无线路由器管理界面密码：102214@tyut</p><p>登录无线路由器密码：tyutli19740202</p><figure class="highlight http"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">http://172.16.0.1/drcom/login?callback=dr1003&amp;DDDDD=2013093008%40internet&amp;upass=8910jqkA&amp;0MKKey=123456&amp;R1=0&amp;R2=&amp;R3=0&amp;R6=0&amp;para=00&amp;v6ip=&amp;terminal_type=1&amp;lang=zh-cn&amp;jsVersion=4.1.3&amp;v=7843&amp;lang=zh</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">http://172.16.0.1/drcom/login?callback=dr1003&amp;DDDDD=2013093032@internet&amp;upass=621976A*a&amp;0MKKey=123456&amp;R1=0&amp;R2=&amp;R3=0&amp;R6=0&amp;para=00&amp;v6ip=&amp;terminal_type=1&amp;lang=zh-cn&amp;jsVersion=4.1.3&amp;v=3110&amp;lang=zh</span><br></pre></td></tr></table></figure><p>立即生效注册表</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">RunDll32.exe USER32.DLL,UpdatePerUserSystemParameters</span><br><span class="line">reg add &quot;hkcu\control panel\desktop&quot; /v wallpaper /d &quot;C:\Users\wrw\Desktop\dome\picture\2022-04-14-56-43-1.png&quot;</span><br><span class="line"></span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#![allow(dead_code)]</span><br><span class="line">q警告</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;811登录无线路由器管理界面密码：102214@tyut&lt;/p&gt;
+&lt;p&gt;登录无线路由器密码：tyutli19740202&lt;/p&gt;
+&lt;figure class=&quot;highlight http&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span </summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://wrwwww.github.io/2023/05/07/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%85%B6%E4%BB%96/%E6%97%A5%E6%9C%9F%E5%87%BD%E6%95%B0%E6%A0%BC%E5%BC%8F%E5%8C%96%E5%AD%97%E7%AC%A6/"/>
+    <id>https://wrwwww.github.io/2023/05/07/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%85%B6%E4%BB%96/%E6%97%A5%E6%9C%9F%E5%87%BD%E6%95%B0%E6%A0%BC%E5%BC%8F%E5%8C%96%E5%AD%97%E7%AC%A6/</id>
+    <published>2023-05-07T03:24:20.228Z</published>
+    <updated>2023-05-07T03:24:20.228Z</updated>
+    
+    <content type="html"><![CDATA[<p>(:)</p><p>时间分隔符。在某些区域设置中，可以使用其他字符表示时间分隔符。时间分隔符在格式化时间值时分隔小时、分钟和秒。格式化输出中用作时间分隔符的实际字符由您的应用程序的当前区域性值确定。</p><p>(&#x2F;)</p><p>日期分隔符。在某些区域设置中，可以使用其他字符表示日期分隔符。日期分隔符在格式化日期值时分隔日、月和年。格式化输出中用作日期分隔符的实际字符由您的应用程序的当前区域性确定。</p><p>(%)</p><p>用于表明不论尾随什么字母，随后字符都应该以单字母格式读取。也用于表明单字母格式应以用户定义格式读取。有关更多详细信息，请参见下面的内容。</p><p>d</p><p>将日显示为不带前导零的数字（如 1）。如果这是用户定义的数字格式中的唯一字符，请使用 %d。</p><p>dd</p><p>将日显示为带前导零的数字（如 01）。</p><p>EEE</p><p>将日显示为缩写形式（例如 Sun）。</p><p>EEEE</p><p>将日显示为全名（例如 Sunday）。</p><p>M</p><p>将月份显示为不带前导零的数字（如一月表示为 1）。如果这是用户定义的数字格式中的唯一字符，请使用 %M。</p><p>MM</p><p>将月份显示为带前导零的数字（例如 01&#x2F;12&#x2F;01）。</p><p>MMM</p><p>将月份显示为缩写形式（例如 Jan）。</p><p>MMMM</p><p>将月份显示为完整月份名（例如 January）。</p><p>gg</p><p>显示时代&#x2F;纪元字符串（例如 A.D.）</p><p>h</p><p>使用 12 小时制将小时显示为不带前导零的数字（例如 1:15:15 PM）。如果这是用户定义的数字格式中的唯一字符，请使用 %h。</p><p>hh</p><p>使用 12 小时制将小时显示为带前导零的数字（例如 01:15:15 PM）。</p><p>H</p><p>使用 24 小时制将小时显示为不带前导零的数字（例如 1:15:15）。如果这是用户定义的数字格式中的唯一字符，请使用 %H。</p><p>HH</p><p>使用 24 小时制将小时显示为带前导零的数字（例如 01:15:15）。</p><p>m</p><p>将分钟显示为不带前导零的数字（例如 12:1:15）。如果这是用户定义的数字格式中的唯一字符，请使用 %m。</p><p>mm</p><p>将分钟显示为带前导零的数字（例如 12:01:15）。</p><p>s</p><p>将秒显示为不带前导零的数字（例如 12:15:5）。如果这是用户定义的数字格式中的唯一字符，请使用 %s。</p><p>ss</p><p>将秒显示为带前导零的数字（例如 12:15:05）。</p><p>f</p><p>显示秒的小数部分。例如，ff 将精确显示到百分之一秒，而 ffff 将精确显示到万分之一秒。用户定义格式中最多可使用七个 f 符号。如果这是用户定义的数字格式中的唯一字符，请使用 %f。</p><p>t</p><p>使用 12 小时制，并对中午之前的任一小时显示大写的 A，对中午到 11:59 P.M 之间的任一小时显示大写的 P。如果这是用户定义的数字格式中的唯一字符，请使用 %t。</p><p>tt</p><p>对于使用 12 小时制的区域设置，对中午之前任一小时显示大写的 AM，对中午到 11:59 P.M 之间的任一小时显示大写的 PM。</p><p>对于使用 24 小时制的区域设置，不显示任何字符。</p><p>y</p><p>将年份 (0-9) 显示为不带前导零的数字。如果这是用户定义的数字格式中的唯一字符，请使用 %y。</p><p>yy</p><p>以带前导零的两位数字格式显示年份（如果适用）。</p><p>yyy</p><p>以四位数字格式显示年份。</p><p>yyyy</p><p>以四位数字格式显示年份。</p><p>z</p><p>显示不带前导零的时区偏移量（如 -8）。如果这是用户定义的数字格式中的唯一字符，请使用 %z。</p><p>zz</p><p>显示带前导零的时区偏移量（例如 -08）</p><p>zzz</p><p>显示完整的时区偏移量（例如 -08:00）</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;(:)&lt;/p&gt;
+&lt;p&gt;时间分隔符。在某些区域设置中，可以使用其他字符表示时间分隔符。时间分隔符在格式化时间值时分隔小时、分钟和秒。格式化输出中用作时间分隔符的实际字符由您的应用程序的当前区域性值确定。&lt;/p&gt;
+&lt;p&gt;(&amp;#x2F;)&lt;/p&gt;
+&lt;p&gt;日期分隔符。在某些区域设置</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://wrwwww.github.io/2023/05/07/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%85%B6%E4%BB%96/%E6%A8%A1%E6%8B%9F%E7%99%BB%E5%BD%95/"/>
+    <id>https://wrwwww.github.io/2023/05/07/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%85%B6%E4%BB%96/%E6%A8%A1%E6%8B%9F%E7%99%BB%E5%BD%95/</id>
+    <published>2023-05-07T03:24:20.228Z</published>
+    <updated>2023-05-07T03:24:20.228Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="python的模拟登录"><a href="#python的模拟登录" class="headerlink" title="python的模拟登录"></a>python的模拟登录</h1><ol><li><p>教务系统的post数据有</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">__LASTFOCUS</span>: </span><br><span class="line"><span class="attr">__VIEWSTATE</span>:X1aGp/trUEb6laqW3/<span class="title class_">FuFWh8BVJzsr1AhCI4OJ7</span>mm2XEhOT/eeamipogoUG2SzzY5B/na4SmZfNPlLe/2u71EscmFhA=</span><br><span class="line"><span class="attr">__VIEWSTATEGENERATOR</span>: 9BD98A7D</span><br><span class="line"><span class="attr">__EVENTTARGET</span>: </span><br><span class="line"><span class="attr">__EVENTARGUMENT</span>: </span><br><span class="line"></span><br><span class="line"><span class="title class_">TextBox1</span>: <span class="number">2013093040</span></span><br><span class="line"><span class="title class_">TextBox2</span>:js加密后的密码</span><br><span class="line"><span class="attr">txtSecretCode</span>: 验证码</span><br><span class="line"><span class="title class_">RadioButtonList1</span>: 学生</span><br><span class="line"><span class="title class_">Button1</span>: 登录</span><br><span class="line"><span class="attr">txtKeyExponent</span>: 第一次请求中返回的值</span><br><span class="line"><span class="attr">txtKeyModulus</span>: 请求中返回的值</span><br></pre></td></tr></table></figure><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> key = <span class="keyword">new</span> <span class="title class_">RSAKeyPair</span>(txtKeyExponent, <span class="string">&quot;&quot;</span>, txtKeyModulus);</span><br><span class="line">最终密码 = <span class="title function_">encryptedString</span>(key,password);</span><br></pre></td></tr></table></figure><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">RSAKeyPair</span>(<span class="params">encryptionExponent, decryptionExponent, modulus</span>)</span><br><span class="line">&#123;</span><br><span class="line"><span class="variable language_">this</span>.<span class="property">e</span> = <span class="title function_">biFromHex</span>(encryptionExponent);</span><br><span class="line"><span class="variable language_">this</span>.<span class="property">d</span> = <span class="title function_">biFromHex</span>(decryptionExponent);</span><br><span class="line"><span class="variable language_">this</span>.<span class="property">m</span> = <span class="title function_">biFromHex</span>(modulus);</span><br><span class="line"></span><br><span class="line"><span class="comment">// We can do two bytes per digit, so</span></span><br><span class="line"><span class="comment">// chunkSize = 2 * (number of digits in modulus - 1).</span></span><br><span class="line"><span class="comment">// Since biHighIndex returns the high index, not the number of digits, 1 has</span></span><br><span class="line"><span class="comment">// already been subtracted.</span></span><br><span class="line"><span class="comment">//this.chunkSize = 2 * biHighIndex(this.m);</span></span><br><span class="line"></span><br><span class="line"><span class="comment">////////////////////////////////// TYF</span></span><br><span class="line">    <span class="variable language_">this</span>.<span class="property">digitSize</span> = <span class="number">2</span> * <span class="title function_">biHighIndex</span>(<span class="variable language_">this</span>.<span class="property">m</span>) + <span class="number">2</span>;</span><br><span class="line"><span class="variable language_">this</span>.<span class="property">chunkSize</span> = <span class="variable language_">this</span>.<span class="property">digitSize</span> - <span class="number">11</span>; <span class="comment">// maximum, anything lower is fine</span></span><br><span class="line"><span class="comment">////////////////////////////////// TYF</span></span><br><span class="line"></span><br><span class="line"><span class="variable language_">this</span>.<span class="property">radix</span> = <span class="number">16</span>;</span><br><span class="line"><span class="variable language_">this</span>.<span class="property">barrett</span> = <span class="keyword">new</span> <span class="title class_">BarrettMu</span>(<span class="variable language_">this</span>.<span class="property">m</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">decryptedString</span>(<span class="params">key, s</span>)</span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">var</span> blocks = s.<span class="title function_">split</span>(<span class="string">&quot; &quot;</span>);</span><br><span class="line"><span class="keyword">var</span> result = <span class="string">&quot;&quot;</span>;</span><br><span class="line"><span class="keyword">var</span> i, j, block;</span><br><span class="line"><span class="keyword">for</span> (i = <span class="number">0</span>; i &lt; blocks.<span class="property">length</span>; ++i) &#123;</span><br><span class="line"><span class="keyword">var</span> bi;</span><br><span class="line"><span class="keyword">if</span> (key.<span class="property">radix</span> == <span class="number">16</span>) &#123;</span><br><span class="line">bi = <span class="title function_">biFromHex</span>(blocks[i]);</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">else</span> &#123;</span><br><span class="line">bi = <span class="title function_">biFromString</span>(blocks[i], key.<span class="property">radix</span>);</span><br><span class="line">&#125;</span><br><span class="line">block = key.<span class="property">barrett</span>.<span class="title function_">powMod</span>(bi, key.<span class="property">d</span>);</span><br><span class="line"><span class="keyword">for</span> (j = <span class="number">0</span>; j &lt;= <span class="title function_">biHighIndex</span>(block); ++j) &#123;</span><br><span class="line">result += <span class="title class_">String</span>.<span class="title function_">fromCharCode</span>(block.<span class="property">digits</span>[j] &amp; <span class="number">255</span>,</span><br><span class="line">block.<span class="property">digits</span>[j] &gt;&gt; <span class="number">8</span>);</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// Remove trailing null, if any.</span></span><br><span class="line"><span class="keyword">if</span> (result.<span class="title function_">charCodeAt</span>(result.<span class="property">length</span> - <span class="number">1</span>) == <span class="number">0</span>) &#123;</span><br><span class="line">result = result.<span class="title function_">substring</span>(<span class="number">0</span>, result.<span class="property">length</span> - <span class="number">1</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">return</span> result;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;python的模拟登录&quot;&gt;&lt;a href=&quot;#python的模拟登录&quot; class=&quot;headerlink&quot; title=&quot;python的模拟登录&quot;&gt;&lt;/a&gt;python的模拟登录&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;教务系统的post数据有&lt;/p&gt;
+&lt;figure </summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://wrwwww.github.io/2023/05/07/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%85%B6%E4%BB%96/%E6%B3%A8%E5%86%8C%E8%A1%A8%E4%BF%AE%E6%94%B9/"/>
+    <id>https://wrwwww.github.io/2023/05/07/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%85%B6%E4%BB%96/%E6%B3%A8%E5%86%8C%E8%A1%A8%E4%BF%AE%E6%94%B9/</id>
+    <published>2023-05-07T03:24:20.228Z</published>
+    <updated>2023-05-07T03:24:20.228Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="使用代码修改注册表"><a href="#使用代码修改注册表" class="headerlink" title="使用代码修改注册表"></a>使用代码修改注册表</h2><figure class="highlight toml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">winapi</span> = &#123; version = <span class="string">&quot;0.3.9&quot;</span>, features = [<span class="string">&quot;winnls&quot;</span>, <span class="string">&quot;sysinfoapi&quot;</span>, <span class="string">&quot;winreg&quot;</span>, <span class="string">&quot;winnt&quot;</span>, <span class="string">&quot;minwindef&quot;</span>, <span class="string">&quot;winerror&quot;</span>, <span class="string">&quot;winuser&quot;</span>, <span class="string">&quot;libloaderapi&quot;</span>] &#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure><figure class="highlight rust"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//注册表的键的位置</span></span><br><span class="line"><span class="keyword">const</span> SUB_KEY: &amp;<span class="type">str</span> = <span class="string">&quot;S-1-5-21-3107748782-1505907129-4070385151-1001\\Control Panel\\Desktop&quot;</span>;</span><br><span class="line"><span class="comment">//要修改的键</span></span><br><span class="line"><span class="keyword">const</span> ITEM_KEY: &amp;<span class="type">str</span> = <span class="string">&quot;WallPaper&quot;</span>;</span><br><span class="line"><span class="comment">//打开注册表</span></span><br><span class="line"><span class="keyword">let</span> <span class="variable">result</span> = <span class="title function_ invoke__">reg_open</span>(HKEY_USERS, SUB_KEY);</span><br><span class="line"><span class="keyword">if</span> <span class="keyword">let</span> <span class="variable">Ok</span>(s) = result &#123;</span><br><span class="line"><span class="keyword">unsafe</span> &#123;   </span><br><span class="line">        <span class="comment">//修改后的内容</span></span><br><span class="line"><span class="keyword">let</span> <span class="variable">val</span> = <span class="title function_ invoke__">str_to_lpcwstr</span>(<span class="string">r&quot;C:\Users\wrw\Desktop\et\picture\wallhaven-3kekj9.jpg&quot;</span>);</span><br><span class="line"> <span class="title function_ invoke__">RegSetValueExW</span>(</span><br><span class="line">     s,<span class="comment">//打开后的注册表</span></span><br><span class="line">     <span class="title function_ invoke__">str_to_lpcwstr</span>(ITEM_KEY).<span class="title function_ invoke__">as_ptr</span>(),<span class="comment">//修改的key的位置</span></span><br><span class="line">     <span class="number">0</span>,</span><br><span class="line">     REG_SZ,<span class="comment">//key的类型</span></span><br><span class="line">     val.<span class="title function_ invoke__">as_ptr</span>() <span class="keyword">as</span> *<span class="keyword">const</span> <span class="type">u8</span>,<span class="comment">//修改后的值</span></span><br><span class="line">     (val.<span class="title function_ invoke__">len</span>()*<span class="number">2</span>) <span class="keyword">as</span> <span class="type">u32</span>,<span class="comment">//新值的长度</span></span><br><span class="line"> );</span><br><span class="line"><span class="keyword">fn</span> <span class="title function_">reg_open</span>(main_hkey: HKEY, sub_key: &amp;<span class="type">str</span>) <span class="punctuation">-&gt;</span> <span class="type">Result</span>&lt;HKEY, <span class="type">String</span>&gt; &#123;</span><br><span class="line">    <span class="keyword">unsafe</span> &#123;</span><br><span class="line">        <span class="keyword">let</span> <span class="keyword">mut </span><span class="variable">hkey</span>: HKEY = <span class="title function_ invoke__">null_mut</span>();</span><br><span class="line">        <span class="keyword">let</span> <span class="variable">status</span> = <span class="title function_ invoke__">RegOpenKeyW</span>(main_hkey, <span class="title function_ invoke__">str_to_lpcwstr</span>(sub_key).<span class="title function_ invoke__">as_ptr</span>(), &amp;<span class="keyword">mut</span> hkey);</span><br><span class="line">        <span class="keyword">if</span> status == SEC_E_OK &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="type">Result</span>::<span class="title function_ invoke__">Ok</span>(hkey);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="type">Result</span>::<span class="title function_ invoke__">Err</span>(<span class="built_in">format!</span>(<span class="string">&quot;status == &#123;&#125;&quot;</span>, status));</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">unsafe</span> <span class="keyword">fn</span> <span class="title function_">str_to_lpcwstr</span>(<span class="type">str</span>: &amp;<span class="type">str</span>) <span class="punctuation">-&gt;</span> <span class="type">Vec</span>&lt;<span class="type">u16</span>&gt; &#123;</span><br><span class="line">    <span class="keyword">let</span> <span class="variable">result</span>: <span class="type">Vec</span>&lt;<span class="type">u16</span>&gt; = OsStr::<span class="title function_ invoke__">new</span>(<span class="type">str</span>).<span class="title function_ invoke__">encode_wide</span>().<span class="title function_ invoke__">chain</span>(<span class="title function_ invoke__">once</span>(<span class="number">0</span>)).<span class="title function_ invoke__">collect</span>();</span><br><span class="line">    <span class="keyword">return</span> result;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;使用代码修改注册表&quot;&gt;&lt;a href=&quot;#使用代码修改注册表&quot; class=&quot;headerlink&quot; title=&quot;使用代码修改注册表&quot;&gt;&lt;/a&gt;使用代码修改注册表&lt;/h2&gt;&lt;figure class=&quot;highlight toml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://wrwwww.github.io/2023/05/07/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%85%B6%E4%BB%96/%E7%A7%BB%E9%99%A4%E6%8C%87%E5%AE%9A%E5%AD%97%E7%AC%A6%E4%BD%BF%E6%95%B0%E5%AD%97%E6%9C%80%E5%A4%A7/"/>
+    <id>https://wrwwww.github.io/2023/05/07/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%85%B6%E4%BB%96/%E7%A7%BB%E9%99%A4%E6%8C%87%E5%AE%9A%E5%AD%97%E7%AC%A6%E4%BD%BF%E6%95%B0%E5%AD%97%E6%9C%80%E5%A4%A7/</id>
+    <published>2023-05-07T03:24:20.228Z</published>
+    <updated>2023-05-07T03:24:20.228Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="移除指定字符使数字最大"><a href="#移除指定字符使数字最大" class="headerlink" title="移除指定字符使数字最大"></a>移除指定字符使数字最大</h3><p>遍历字符遍历到字符后如果不是字符串最后一位就判断是不是小于后一位的字符</p><p>如果大于就可以直接返回index</p><p>否则就往后遍历直到最后一个删除</p><figure class="highlight rust"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 移除指定字符使得数字最大</span></span><br><span class="line"><span class="keyword">pub</span> <span class="keyword">fn</span> <span class="title function_">remove_digit</span>(<span class="keyword">mut</span> number: <span class="type">String</span>, digit: <span class="type">char</span>) <span class="punctuation">-&gt;</span> <span class="type">String</span> &#123;</span><br><span class="line">    <span class="keyword">let</span> <span class="keyword">mut </span><span class="variable">ans_index</span> = <span class="number">0</span>;</span><br><span class="line">    <span class="comment">// 通过管道将字符串变为字符数组</span></span><br><span class="line">    <span class="keyword">let</span> <span class="variable">numbers</span>: <span class="type">Vec</span>&lt;<span class="type">char</span>&gt; = number.<span class="title function_ invoke__">chars</span>().<span class="title function_ invoke__">collect</span>();</span><br><span class="line">    <span class="comment">//遍历字符数组</span></span><br><span class="line">    <span class="keyword">for</span> <span class="variable">s</span> <span class="keyword">in</span> <span class="number">0</span>..numbers.<span class="title function_ invoke__">len</span>() &#123;</span><br><span class="line">        <span class="keyword">if</span> numbers[s] == digit &#123;</span><br><span class="line">            ans_index = s;</span><br><span class="line">            <span class="keyword">if</span> s + <span class="number">1</span> &lt; number.<span class="title function_ invoke__">len</span>() &amp;&amp; numbers[s + <span class="number">1</span>] &gt; digit &#123;</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    number.<span class="title function_ invoke__">remove</span>(ans_index);</span><br><span class="line">    number</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;移除指定字符使数字最大&quot;&gt;&lt;a href=&quot;#移除指定字符使数字最大&quot; class=&quot;headerlink&quot; title=&quot;移除指定字符使数字最大&quot;&gt;&lt;/a&gt;移除指定字符使数字最大&lt;/h3&gt;&lt;p&gt;遍历字符遍历到字符后如果不是字符串最后一位就判断是不是小于后一位的字</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://wrwwww.github.io/2023/05/07/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF/ajax/"/>
+    <id>https://wrwwww.github.io/2023/05/07/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF/ajax/</id>
+    <published>2023-05-07T03:24:20.228Z</published>
+    <updated>2023-05-07T03:24:20.228Z</updated>
+    
+    <content type="html"><![CDATA[<p>全局刷新<br>浏览器得到服务器请求返回的数据之后,只能得到数据不能同时展示之前的内容<br>局部刷新<br>浏览器得到服务器的数据之后同时展示原有的数据<br>全局刷新的工作原理<br>![[Pasted image 20230417102225.png]]<br>浏览器负责将请求协议包推送给服务器<br>服务器将响应协议包直接推送到浏览器内容<br>浏览器中原有数据被覆盖<br>此时只能展示响应数据不能展示已有数据<br>局部刷新的原理<br>![[Pasted image 20230417103003.png]]<br>必须禁止尤浏览器向服务端发送请求,不能使用超链接,尤脚本对象代替浏览器发送请求,响应包给脚本对象</p><p>ajax<br>asynchronous javascript and xml<br>xml 可拓展标记语言<br>局部刷新<br>在页面加载后向服务器请求数据<br>提高交互体验</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;全局刷新&lt;br&gt;浏览器得到服务器请求返回的数据之后,只能得到数据不能同时展示之前的内容&lt;br&gt;局部刷新&lt;br&gt;浏览器得到服务器的数据之后同时展示原有的数据&lt;br&gt;全局刷新的工作原理&lt;br&gt;![[Pasted image 20230417102225.png]]&lt;br&gt;浏览器</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://wrwwww.github.io/2023/05/07/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF/axios/"/>
+    <id>https://wrwwww.github.io/2023/05/07/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF/axios/</id>
+    <published>2023-05-07T03:24:20.228Z</published>
+    <updated>2023-05-07T03:24:20.228Z</updated>
+    
+    <content type="html"><![CDATA[<p>axios的封装</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;axios的封装&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://wrwwww.github.io/2023/05/07/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF/css/"/>
+    <id>https://wrwwww.github.io/2023/05/07/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF/css/</id>
+    <published>2023-05-07T03:24:20.228Z</published>
+    <updated>2023-05-07T03:24:20.228Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="css"><a href="#css" class="headerlink" title="css"></a>css</h1><h4 id="导入css的三种方法"><a href="#导入css的三种方法" class="headerlink" title="导入css的三种方法"></a>导入css的三种方法</h4><ul><li><p>使用style标签添加样式</p></li><li><p>在标签的后面添加css样式</p></li><li><p>使用link标签导入外部css文件</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 第一种--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span>h1&#123;</span><br><span class="line">background=&quot;red&quot;;    </span><br><span class="line">&#125; <span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 第二种--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span> <span class="attr">style</span>=<span class="string">&quot;&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 第三种--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span> <span class="attr">href</span>=<span class="string">&quot;css位置&quot;</span>&gt;</span></span><br></pre></td></tr></table></figure><h2 id="常用的标签"><a href="#常用的标签" class="headerlink" title="常用的标签"></a>常用的标签</h2><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">h1</span>&gt;</span><span class="tag">&lt;/<span class="name">h1</span>&gt;</span>1~6都是标题</span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span> 段落</span><br><span class="line"><span class="tag">&lt;<span class="name">br</span>&gt;</span>换行</span><br><span class="line"><span class="tag">&lt;<span class="name">hr</span>&gt;</span>水平线标签</span><br><span class="line"><span class="comment">&lt;!-- 字体样式标签--&gt;</span></span><br><span class="line">粗体<span class="tag">&lt;<span class="name">strong</span>&gt;</span> 1234<span class="tag">&lt;/<span class="name">strong</span>&gt;</span></span><br><span class="line">斜体<span class="tag">&lt;<span class="name">em</span>&gt;</span>1234<span class="tag">&lt;/<span class="name">em</span>&gt;</span></span><br><span class="line">特殊符号</span><br><span class="line">&amp;开头;结尾</span><br><span class="line"><span class="comment">&lt;!--图片标签--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span> = <span class="string">&quot;path&quot;</span> <span class="attr">alt</span>=<span class="string">&quot;图片加载失败显示的文字&quot;</span></span></span><br><span class="line"><span class="tag">     <span class="attr">title</span>=<span class="string">&quot;悬停时候显示的文字&quot;</span> <span class="attr">width</span>=<span class="string">&quot;&quot;</span> <span class="attr">height</span>=<span class="string">&quot;&quot;</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!--链接文本或者图片 _self,_blank--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;path&quot;</span> <span class="attr">target</span>=<span class="string">&quot;目标窗口的位置&quot;</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!--锚链接--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">name</span>=<span class="string">&quot;#top&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;#top&quot;</span> &gt;</span>点击回到顶部<span class="tag">&lt;/<span class="name">a</span>&gt;</span>    </span><br><span class="line"><span class="comment">&lt;!--列表--&gt;</span>    </span><br><span class="line"><span class="comment">&lt;!--有序--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">ol</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span>java<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span>ja<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">ol</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!--无序--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">ul</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span>java<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span>ja<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">ul</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!--自定义序--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">dl</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">dt</span>&gt;</span>java<span class="tag">&lt;/<span class="name">dt</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">dt</span>&gt;</span>c<span class="tag">&lt;/<span class="name">dt</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">dd</span>&gt;</span>sss<span class="tag">&lt;/<span class="name">dd</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">dt</span>&gt;</span>linux<span class="tag">&lt;/<span class="name">dt</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dl</span>&gt;</span>    </span><br><span class="line"><span class="comment">&lt;!--表格--&gt;</span>    </span><br><span class="line"><span class="tag">&lt;<span class="name">table</span> <span class="attr">border</span>=<span class="string">&quot;1px&quot;</span> <span class="attr">style</span>=<span class="string">&quot;text-align:center;font-family:verdana,sans-serif;color:red;font-size:20px;&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">tr</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">td</span> <span class="attr">colspan</span>=<span class="string">&quot;4&quot;</span>&gt;</span>科目<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">tr</span>&gt;</span>行内</span><br><span class="line">        <span class="tag">&lt;<span class="name">td</span> <span class="attr">rowspan</span>=<span class="string">&quot;2&quot;</span> &gt;</span>班级<span class="tag">&lt;/<span class="name">td</span>&gt;</span>列内</span><br><span class="line">        <span class="tag">&lt;<span class="name">td</span>&gt;</span>2-2<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">td</span>&gt;</span>2-3<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">td</span>&gt;</span>2-4<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">tr</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">td</span>&gt;</span>2-2<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">td</span>&gt;</span>2-3<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">td</span>&gt;</span>2-4<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">table</span>&gt;</span>    </span><br><span class="line"><span class="tag">&lt;<span class="name">label</span>&gt;</span>标签指向输入框,点击字体跳到输入框  </span><br><span class="line">placeholder=&quot;书籍的数量&quot;输入框提示信息</span><br><span class="line"><span class="tag">&lt;<span class="name">form</span>  <span class="attr">action</span>=<span class="string">&quot;/h1/addBook&quot;</span> <span class="attr">method</span>=<span class="string">&quot;get&quot;</span>&gt;</span>表单    </span><br></pre></td></tr></table></figure><h2 id="css样式"><a href="#css样式" class="headerlink" title="css样式"></a>css样式</h2><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line">style&#123;</span><br><span class="line"><span class="attribute">background-color</span>:red;背景图片</span><br><span class="line"><span class="attribute">font-family</span>:arial,sans-serif;<span class="attribute">color</span>:red;<span class="attribute">font-size</span>:<span class="number">20px</span>;<span class="attribute">font-weight</span>:bold; <span class="attribute">text-align</span>:center;居中</span><br><span class="line"><span class="attribute">background-image</span>: <span class="built_in">linear-gradient</span>(to right, <span class="number">#6025f5</span>, <span class="number">#ff5555</span>);从左到右渐变</span><br><span class="line"><span class="comment">/*水平阴影，垂直阴影，模糊的距离，以及阴影的颜色*/</span></span><br><span class="line"><span class="attribute">text-shadow</span>: <span class="number">10px</span> <span class="number">10px</span> <span class="number">4px</span> grey;    </span><br><span class="line"><span class="comment">/*盒子阴影*/</span>    </span><br><span class="line"><span class="attribute">box-shadow</span>: <span class="number">5px</span> <span class="number">5px</span> <span class="number">5px</span> grey;</span><br><span class="line"><span class="attribute">text-decoration</span>: None;去掉<span class="selector-tag">a</span>链接的下划线    </span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/* 三列,以及中间的间距*/</span></span><br><span class="line"><span class="attribute">column-count</span>:<span class="number">3</span>;</span><br><span class="line"><span class="attribute">column-gap</span>:<span class="number">40px</span>;</span><br><span class="line"><span class="comment">/*列中分割线,以及厚度,颜色*/</span></span><br><span class="line"><span class="attribute">column-rule-style</span>:dotted;</span><br><span class="line"><span class="attribute">column-rule-width</span>: <span class="number">1px</span>;</span><br><span class="line"><span class="attribute">column-rule-color</span>: lightblue;</span><br><span class="line"><span class="comment">/*指定控件跨越几个列*/</span></span><br><span class="line"><span class="attribute">column-span</span>: all;</span><br><span class="line"><span class="comment">/*列的宽度*/</span></span><br><span class="line"><span class="attribute">column-width</span>: <span class="number">100px</span>;</span><br><span class="line"><span class="selector-class">.btn-group</span> <span class="selector-tag">button</span> &#123;</span><br><span class="line">    <span class="attribute">background-color</span>: <span class="number">#04AA6D</span>; <span class="comment">/* 绿色背景 */</span></span><br><span class="line">    <span class="attribute">border</span>: <span class="number">1px</span> solid green; <span class="comment">/* 绿色边框 */</span></span><br><span class="line">    <span class="attribute">color</span>: white; <span class="comment">/* 白色文本 */</span></span><br><span class="line">    <span class="attribute">padding</span>: <span class="number">10px</span> <span class="number">24px</span>; <span class="comment">/* 内边距离、 */</span></span><br><span class="line">    <span class="attribute">cursor</span>: pointer; <span class="comment">/* 指针/手形图标 */</span></span><br><span class="line">    <span class="attribute">float</span>: left; <span class="comment">/* 并排浮动按钮 */</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="动画"><a href="#动画" class="headerlink" title="动画"></a>动画</h3><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">@keyframes</span> 规则是创建动画。</span><br><span class="line"></span><br><span class="line">@keyframes 规则内指定一个 CSS 样式和动画将逐步从目前的样式更改为新的样式。</span><br></pre></td></tr></table></figure></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;css&quot;&gt;&lt;a href=&quot;#css&quot; class=&quot;headerlink&quot; title=&quot;css&quot;&gt;&lt;/a&gt;css&lt;/h1&gt;&lt;h4 id=&quot;导入css的三种方法&quot;&gt;&lt;a href=&quot;#导入css的三种方法&quot; class=&quot;headerlink&quot; title=&quot;导</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://wrwwww.github.io/2023/05/07/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF/express/"/>
+    <id>https://wrwwww.github.io/2023/05/07/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF/express/</id>
+    <published>2023-05-07T03:24:20.228Z</published>
+    <updated>2023-05-07T03:24:20.228Z</updated>
+    
+    <content type="html"><![CDATA[<p>初始化node项目</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">// 初始化命令</span><br><span class="line">npm init</span><br><span class="line">// 安装express,并添加到依赖当中</span><br><span class="line">npm install express --save</span><br><span class="line">// 创建index.js</span><br><span class="line"></span><br></pre></td></tr></table></figure><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 引入模块</span></span><br><span class="line"><span class="comment">// commonjs的模块引入方式</span></span><br><span class="line"><span class="keyword">const</span> express = <span class="built_in">require</span>(<span class="string">&#x27;express&#x27;</span>)</span><br><span class="line"><span class="comment">// es6的引入方式</span></span><br><span class="line"><span class="keyword">import</span> express <span class="keyword">from</span> <span class="string">&#x27;express&#x27;</span></span><br><span class="line"><span class="keyword">const</span> app = <span class="title function_">express</span>()</span><br><span class="line"><span class="keyword">const</span> port = <span class="number">3000</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 接口</span></span><br><span class="line">app.<span class="title function_">get</span>(<span class="string">&#x27;/&#x27;</span>, <span class="function">(<span class="params">request, response</span>) =&gt;</span> &#123;</span><br><span class="line"><span class="comment">// 设置响应头</span></span><br><span class="line">response.<span class="title function_">header</span>(<span class="string">&quot;Access-Control-Allow-Origin&quot;</span>, <span class="string">&quot;*&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 请求的参数</span></span><br><span class="line">request.<span class="property">query</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 转为json并发送</span></span><br><span class="line">response.<span class="title function_">json</span>(<span class="title class_">Object</span>对象)</span><br><span class="line"></span><br><span class="line"><span class="comment">// 发送文本</span></span><br><span class="line">  response.<span class="title function_">send</span>(<span class="string">&#x27;Hello World!&#x27;</span>)</span><br><span class="line">&#125;)</span><br><span class="line"></span><br><span class="line"><span class="comment">// 监听3000端口</span></span><br><span class="line">app.<span class="title function_">listen</span>(port, <span class="function">() =&gt;</span> &#123;</span><br><span class="line">  <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`Example app listening on port <span class="subst">$&#123;port&#125;</span>`</span>)</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">node index.js</span><br><span class="line">运行</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;初始化node项目&lt;/p&gt;
+&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/spa</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://wrwwww.github.io/2023/05/07/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF/jsp/"/>
+    <id>https://wrwwww.github.io/2023/05/07/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF/jsp/</id>
+    <published>2023-05-07T03:24:20.228Z</published>
+    <updated>2023-05-07T03:24:20.228Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight jsp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;%</span><br><span class="line">  response.sendRedirect(<span class="string">&quot;/h1/hello1&quot;</span>);</span><br><span class="line">%&gt;</span><br></pre></td></tr></table></figure><p>可以再html中写网页</p><p>实现分页查询数据库</p><p>携带参数给链接链接按照前端传递过来值对指定数据库进行访问</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;figure class=&quot;highlight jsp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;</summary>
+      
+    
+    
+    
     
   </entry>
   
