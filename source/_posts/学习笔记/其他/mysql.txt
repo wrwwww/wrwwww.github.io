@@ -1,0 +1,74 @@
+[mysqld]
+basedir=D:\Program Files\mysql-5.7\
+datadir=D:\Program Files\mysql-5.7\data\
+port=3306
+skip-grant-tables
+
+mysqld –install 
+
+ mysqld --initialize-insecure --user=mysql
+
+sc delete 服务名
+
+### 用户管理
+
+## jdbc程序
+
+普通项目
+
+导入数据库驱动,并添加到项目
+
+```java
+//加载对象
+class.forname(COM.MYSQL.JDBC.DRIVER)
+//用户信息和url
+    URL="JDBC:MYSQL:localhost:3306/jdbcstudy?useUnicode=true&charcaterEncoding=utf8&&useSSl=true"
+//连接成功
+//得到数据库对象
+connrction connection = drivermanager.getconnection(url,username,password)
+    statement =connecton.createstarte
+//执行sql
+```
+
+#### 事务
+
+隔离级别
+
+1. read uncommitted 存在脏读
+
+2. read committed 存在不可重复读
+
+3. repeatable read 存在幻读
+
+4. serializable (串行) 效率低
+
+   ###### 查看隔离级别
+
+   ```mysql
+   select @@transaction_isolation;
+   ```
+
+   ###### 设置隔离级别
+
+   ```mysql 
+   set session transaction isolation level [隔离级别]
+   ```
+
+   ###### 设置提交方式
+   
+   ```mysql
+   set autocommit = [0/1];
+   -- 0为手动提交 1为自动提交 mysql默认为手动提交
+   ```
+   
+   ###### 开启事务
+   
+   ```mysql
+   start transaction;--开启事务
+   --增删改查
+   [commit/rollback]--提交或者回滚
+   ```
+   
+   
+   
+   
