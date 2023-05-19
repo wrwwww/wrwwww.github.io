@@ -1,3 +1,8 @@
+---
+title: mongoDB
+date: 2023-05-05 21:30:42
+tags:  
+---
 # mongoDB的安装
 
 ## 配置文件mongod.cfg

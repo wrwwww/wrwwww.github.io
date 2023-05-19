@@ -1,3 +1,8 @@
+---
+title: mysql基础
+date: 2023-05-05 21:30:42
+tags:  
+---
 # 1. mysql命令
 
 ```mysql

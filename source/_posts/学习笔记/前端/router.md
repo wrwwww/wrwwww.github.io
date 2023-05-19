@@ -1,3 +1,8 @@
+---
+title: router
+date: 2023-05-05 21:30:42
+tags:  
+---
 ## 导入创建路由
 通过createRouter()方法
 ```Typescript

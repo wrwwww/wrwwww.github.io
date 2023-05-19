@@ -1,3 +1,8 @@
+---
+title: linux
+date: 2023-05-05 21:30:42
+tags:  
+---
  git clone 拉取
 ipconfig /all
 ping  -t -1 128   ctri c 结束

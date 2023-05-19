@@ -1,3 +1,8 @@
+---
+title: jsp
+date: 2023-05-05 21:30:42
+tags:  
+---
 ```jsp
 <%
   response.sendRedirect("/h1/hello1");

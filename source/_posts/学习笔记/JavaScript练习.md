@@ -1,3 +1,8 @@
+---
+title: JavaScript练习
+date: 2023-05-05 21:30:42
+tags:  
+---
 # HTML+Css+JavaScript 50天项目练习
 
 ## 2022-12-16  day01

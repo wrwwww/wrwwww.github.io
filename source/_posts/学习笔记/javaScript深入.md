@@ -1,3 +1,8 @@
+---
+title: javaScript深入
+date: 2023-05-05 21:30:42
+tags:  
+---
 变量,函数会被添加到全局环境当中
 ```JavaScript
     var yy="sss"

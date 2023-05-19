@@ -1,3 +1,8 @@
+---
+title: typescript
+date: 2023-05-05 21:30:42
+tags:  
+---
 ## ts的配置
 ```json
 "compilerOptions": {

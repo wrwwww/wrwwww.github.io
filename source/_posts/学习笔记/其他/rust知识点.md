@@ -1,3 +1,8 @@
+---
+title: rust知识点
+date: 2023-05-05 21:30:42
+tags:  
+---
 调用c语言的rand数的模块
 
 ```rust

@@ -1,3 +1,8 @@
+---
+title: vite
+date: 2023-05-05 21:30:42
+tags:  
+---
 ## 路径别名
 ```typescript
 // 在vite配置中

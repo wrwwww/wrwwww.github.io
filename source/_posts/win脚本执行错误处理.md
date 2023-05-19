@@ -1,6 +1,11 @@
 ---
 title: win脚本执行错误处理
 date: 2023-05-05 21:30:42
+tags:  
+---
+---
+title: win脚本执行错误处理
+date: 2023-05-05 21:30:42
 tags: [win,powershell]
 ---
 ```shell

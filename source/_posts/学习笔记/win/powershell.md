@@ -1,3 +1,8 @@
+---
+title: powershell
+date: 2023-05-05 21:30:42
+tags:  
+---
 ## 永久添加别名
 
 ```shell
