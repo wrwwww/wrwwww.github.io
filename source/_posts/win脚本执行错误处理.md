@@ -1,7 +1,12 @@
 ---
 title: win脚本执行错误处理
 date: 2023-05-05 21:30:42
-tags:
+tags:  
+---
+---
+title: win脚本执行错误处理
+date: 2023-05-05 21:30:42
+tags: [win,powershell]
 ---
 ```shell
 PS D:\code\wrwwww.github.io> npm install -g pnpm
